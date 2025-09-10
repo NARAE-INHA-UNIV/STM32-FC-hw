@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5277304b-3759-41bd-aa67-0ff587eb17ac")
+	(paper "A4")
+	(title_block
+		(title "STM32 Flight Controller")
+		(date "2025-07-26")
+		(rev "2.0.0 (WIP)")
+	)
+	(lib_symbols)
+)

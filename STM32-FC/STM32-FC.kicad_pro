@@ -458,9 +458,9 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -484,7 +484,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
@@ -783,6 +783,36 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -848,28 +878,24 @@
       "Root"
     ],
     [
+      "e16075e4-ee13-4b47-801c-d4c072de769b",
+      "STM32_io"
+    ],
+    [
       "a4ea5d55-2314-4804-8750-f8f12484bbce",
       "USB & POWER"
+    ],
+    [
+      "2d70a10f-8989-40ff-9a87-2cfa97b94251",
+      "AHRS"
     ],
     [
       "3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2",
       "Memory"
     ],
     [
-      "2d70a10f-8989-40ff-9a87-2cfa97b94251",
-      "Sensors"
-    ],
-    [
-      "77caf73d-b7f5-48a6-9de3-ef3df69ee7d9",
-      "RC_INPUT"
-    ],
-    [
-      "20dd612a-0830-4eda-be1e-c1591992c654",
-      "GPS"
-    ],
-    [
       "a2773f19-5d2b-46e4-ac82-0d57be5829df",
-      "Communication"
+      "IO"
     ]
   ],
   "text_variables": {}
